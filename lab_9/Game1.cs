@@ -10,6 +10,7 @@ namespace lab_9
         private SpriteBatch _spriteBatch;
         int n = 5;
         bool onhit=false;
+        int m = 6;
         public Game1()
         {
             _graphics = new GraphicsDeviceManager(this);
