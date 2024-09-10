@@ -8,6 +8,11 @@ namespace lab_9
     {
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
+
+
+
+
+        int boom = 1;
         int iwannagohome = 1;
         int n = 5;
         bool onhit=false;
@@ -42,6 +47,7 @@ namespace lab_9
 
             base.Update(gameTime);
         }
+
 
         protected override void Draw(GameTime gameTime)
         {
