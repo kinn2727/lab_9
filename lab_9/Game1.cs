@@ -9,6 +9,7 @@ namespace lab_9
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
         int n = 5;
+        bool onhit=false;
         public Game1()
         {
             _graphics = new GraphicsDeviceManager(this);
