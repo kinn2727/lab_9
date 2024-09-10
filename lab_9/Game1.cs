@@ -9,6 +9,10 @@ namespace lab_9
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
 
+
+
+
+        int boom = 1;
         public Game1()
         {
             _graphics = new GraphicsDeviceManager(this);
@@ -39,6 +43,7 @@ namespace lab_9
 
             base.Update(gameTime);
         }
+
 
         protected override void Draw(GameTime gameTime)
         {
